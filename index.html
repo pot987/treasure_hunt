@@ -1,13 +1,13 @@
 <html>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/dist/mindar-image.prod.js"></script>
       <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/dist/mindar-image-aframe.prod.js"></script>
     </head>
     <body>
-      <a-scene id="bot" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/VineshReddy-V/basic/target/bottle-target.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene id="bot" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/target-13.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
           <a-asset-item id="bottle" src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/locker/scene.gltf"></a-asset-item>
         </a-assets>
@@ -15,14 +15,14 @@
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
 <!--         <a-entity mindar-image-target="targetIndex: 0" src="#bot"> -->
-             <a-entity mindar-image-target="targetIndex: 0" src="#bot" text="font: mozillavr; height: 10; width: 2; color:red; value: DX2021 Awards                               Flag:HJ975E">
-          <a-gltf-model rotation="0 180 0 " position="0 -0.25 0" scale="0.15 0.15 0.15" src="#bottle" animation-mixer>
+             <a-entity mindar-image-target="targetIndex: 0" src="#bot" text="font: mozillavr; height: 10; width: 2; color:red; value: BLR000F FF WS-421                               Flag:HJ975E">
+          <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.25 0.25 0.25" src="#bottle" animation-mixer>
         </a-entity>
       </a-scene>
 
-      <a-scene id="fir" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/VineshReddy-V/basic/target/fire-target.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene id="fir" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/target-14.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
-          <a-asset-item id="fire" src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/taj/scene.gltf"></a-asset-item>
+          <a-asset-item id="fire" src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/taj_mahal/scene.gltf"></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -33,7 +33,7 @@
         </a-entity>
       </a-scene>
 
-        <a-scene id="print" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/VineshReddy-V/basic/target/printer-target.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-scene id="print" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/target-15.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
           <a-asset-item id="printer" src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/meeting/scene.gltf"></a-asset-item>
         </a-assets>
@@ -46,16 +46,16 @@
         </a-entity>
       </a-scene>
 
-      <a-scene id="fin" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/VineshReddy-V/basic/target/final.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene id="fin" mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/target-16.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
-          <a-asset-item id="final" src="https://cdn.jsdelivr.net/gh/VineshReddy-V/basic/target/keyboard/scene.gltf"></a-asset-item>
+          <a-asset-item id="final" src="https://cdn.jsdelivr.net/gh/pot987/treasure_hunt/target/keyboard/scene.gltf"></a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
 <!--         <a-entity mindar-image-target="targetIndex: 0" src="#print"> -->
              <a-entity mindar-image-target="targetIndex: 0" src="#fin" text="font: mozillavr; height: 10; width: 2; color:blue; value: I HAVE ALL THE KEYS AND "EYES"                                  Flag:SH24RE">
-          <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#final" animation-mixer>
+          <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="3.5 3.5 3.5" src="#final" animation-mixer>
         </a-entity>
       </a-scene>
 
