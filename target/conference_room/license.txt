@@ -1,0 +1,11 @@
+Model Information:
+* title:	Conference Room
+* source:	https://sketchfab.com/3d-models/conference-room-da8b9342302e4d6b839dc079c1c11505
+* author:	WeBuild 3D (https://sketchfab.com/webuild)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Conference Room" (https://sketchfab.com/3d-models/conference-room-da8b9342302e4d6b839dc079c1c11505) by WeBuild 3D (https://sketchfab.com/webuild) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
